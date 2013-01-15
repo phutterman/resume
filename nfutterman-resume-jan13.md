@@ -1,6 +1,5 @@
 Nathaniel Futterman
 ===================
-714 Treat Avenue, San Francisco, CA 94110  
 (510) 225-5430 // nat.futterman@gmail.com
 _________________________________________
 
