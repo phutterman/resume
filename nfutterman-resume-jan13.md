@@ -1,5 +1,5 @@
-Nathaniel Futterman
-===================
+Nat Futterman
+=============
 (510) 225-5430 // nat.futterman@gmail.com
 _________________________________________
 
