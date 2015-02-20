@@ -6,8 +6,9 @@ _________________________________________
 OVERVIEW
 --------
 
-I am a junior operations professional with a focus on storage operations,
-experience with datacenter hardware, and a strong self-taught Linux background. 
+I am an operations generalist with a strong self-taught Linux background,
+experience managing servers and applications in a production environment,
+general scripting skills, and an appreciation for physical infrastructure.
 As a social scientist by education, I am particularly interested in novel ways 
 technology can connect people to useful knowledge.
 
@@ -27,34 +28,49 @@ Case Study of Information and Communication Technology for Development.”
 EXPERIENCE
 ----------
 
-### Box - Datacenter Technician // Oct. 2011 - Present
+### Opower - Systems Engineer // Apr. 2013 - Present
+
+* Significant configuration management work managing several hundred servers
+  (primarily with Puppet but some Chef).
+* Planned and executed client site migrations from legacy to new software load
+  balancers based on Nginx and Haproxy; extensive configuration work on them.
+* Migration and configuration of external DNS to DynEct slaved off of internal
+  Bind server; moved management of zone files to standard Github workflow.
+* Participation in 24/7 on-call rotation; frequently first line of defense for
+  technologies not specifically under the Systems umbrella.
+* Debugging/troubleshooting MySQL, RabbitMQ, Jetty web applications, etc.
+* Provisioning Scientific Linux and Ubuntu VMs on Red Hat Enterprise and Proxmox 
+  infrastructure as well as bare metal servers and hypervisors.
+* Responsible for planning and execution of migration of servers in a remote
+  (hosted) site from Xen hypervisors to our own Proxmox infrastructure.
+* Primarily responsible for physical installation and initial setup of Opower's 
+  second colocation facility for disaster recovery.
+
+### Box - Datacenter Technician // Oct. 2011 - Mar. 2013
 
 * Specialization in storage administration though close collaboration with 
-  storage operations team on monitoring and maintenance of Box's multi-petabyte 
-  storage infrastructure, including disk/RAID monitoring and automation, 
+  storage operations team on monitoring and maintenance of multi-petabyte 
+  storage infrastructure; disk/RAID monitoring and automation, 
   performance testing and optimization, and capacity planning.
-* Specific storage achievements include tools to collect and monitor disk and 
-  volume health trends, and a storage growth capacity planning simulation.
+* Developed tool to collect and monitor disk and volume health trends and 
+  a storage growth capacity planning simulation tool.
 * Installation, configuration, and maintenance of datacenter hardware, power, 
-  and networking requirements in multiple facilities to support Box's rapidly 
-  growing SAAS platform.
+  and networking requirements in multiple facilities to support Box's rapid growth
 * Provisioning of CentOS and Scientific Linux servers including OS kickstart 
   using Cobbler and configuration with Puppet, and work on provisioning 
   automation using Tumblr's newly open sourced Collins tool.
-* Troubleshooting OS and hardware issues as well as TCP/IP and physical link on 
+* Troubleshooting OS, hardware, and network (TCP/IP and physical) issues on 
   Dell and SuperMicro servers and Force10 and Cisco network equipment.
 * Python and Bash scripting as needed for general automation and time savings.
 
 ### Apple, Inc - Specialist, Extended Business Team	// Sep. 2010 – Oct. 2011
 
 * Expert consultation with consumer and business customers to select relevant 
-  solutions to complex technical needs in retail and inside sales setting.
-* Consistent performance in in-person sales, business introductions, and repeat 
-  business relationships to regularly exceed weekly store goals.
-* Extensive knowledge of features and benefits of Apple and 3rd-party hardware, 
-  software, support, and services with regard to the needs of individual and 
-  business clients, and the ability to translate highly technical concepts to 
-  customers of all technical levels.
+  solutions to greatly varied technical needs.
+* Consistent performance in sales, business introductions, and repeat business 
+  relationships to regularly exceed weekly store goals.
+* Demonstrated ability to translate highly technical concepts to customers 
+  of all technical levels.
 
 ### Open Mind Question Box - Uganda Program Coordinator	// Jun. – Sep. 2009
 
@@ -69,37 +85,20 @@ EXPERIENCE
   International Conference on Information Technology and Development, as 
   “AppLab Question Box: A Live Voice Information Service in Rural Uganda”
 
-### The Scholar’s Workstation - Customer Service/Sales // Jun. 2007 – Jun. 2009
-
-* Consulted with individual students, faculty, and University department 
-  purchasers of all technical levels to identify hardware and software needs.
-* Supported licensing and installation of research tools such as SPSS, SAS, and 
-  Matlab across all platforms.
-
-### Tellefsen Hall - Network Administrator // Aug. 2007 – May 2008
-
-* Ensured maximum network uptime and performance for boarding house of 44 
-  fellow members of the UC Marching Band.
-* Upgraded network backbone to meet increasing demand with new switches and 
-  replaced aging wireless infrastructure.
-* Built, installed, and configured a BSD server to provide DHCP, DNS, print 
-  spooling, and file sharing.
-* Troubleshot individual residents’ connectivity and computer problems.
-
 
 SKILLS
 ------
 
-* Familiar with the requirements of a 24x7 production environment
-* Python and Bash scripting
+* Configuration management experience (strong Puppet; moderate Chef)
+* Familiar with the requirements of a 24x7 production environment and on-call rotation
+* Ruby and Bash scripting
+* Installation and configuration of Proxmox and ESXi hypervisors
 * RAID monitoring, automation, and performance optimization
 * Datacenter cabling, power, and maintenance best practices
-* Host network configuration, basic switch configuration, troubleshooting TCP/IP
-* Installation and configuration of VMware ESXi hosts and guests
+* General network knowledge and troubleshooting; some switch configuration
 * Excellent written and verbal communications skills; adept at conveying
   technical concepts to listeners of varying technical backgrounds
-* Strong academic writing and qualitative research skills and general 
-  quantitative/statistics experience; work with R
+* Strong academic writing and qualitative research background
 
 
 VOLUNTEER EXPERIENCE AND OTHER ACTIVITIES
