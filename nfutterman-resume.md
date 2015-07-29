@@ -30,8 +30,8 @@ EXPERIENCE
 
 ### Opower - Systems Engineer // Apr. 2013 - Present
 
-* Significant configuration management work managing several hundred servers
-  (primarily with Puppet but some Chef).
+* Significant configuration management work managing several hundred VM and 
+  bare metal servers (primarily with Puppet but some Chef).
 * Planned and executed client site migrations from legacy to new software load
   balancers based on Nginx and Haproxy; extensive configuration work on them.
 * Migration and configuration of external DNS to DynEct slaved off of internal
@@ -45,30 +45,30 @@ EXPERIENCE
   (hosted) site from Xen hypervisors to our own Proxmox infrastructure.
 * Primarily responsible for physical installation and initial setup of Opower's 
   second colocation facility for disaster recovery.
+* Experience with basic configuration of Arista switches and Palo Alto firewalls.
 
 ### Box - Datacenter Technician // Oct. 2011 - Mar. 2013
 
+* Provisioning of CentOS and Scientific Linux servers including OS kickstart 
+  using Cobbler and configuration with Puppet, and work on provisioning 
+  automation using Tumblr's newly open sourced Collins tool.
 * Specialization in storage administration though close collaboration with 
   storage operations team on monitoring and maintenance of multi-petabyte 
   storage infrastructure; disk/RAID monitoring and automation, 
   performance testing and optimization, and capacity planning.
 * Developed tool to collect and monitor disk and volume health trends and 
   a storage growth capacity planning simulation tool.
-* Installation, configuration, and maintenance of datacenter hardware, power, 
-  and networking requirements in multiple facilities to support Box's rapid growth
-* Provisioning of CentOS and Scientific Linux servers including OS kickstart 
-  using Cobbler and configuration with Puppet, and work on provisioning 
-  automation using Tumblr's newly open sourced Collins tool.
 * Troubleshooting OS, hardware, and network (TCP/IP and physical) issues on 
   Dell and SuperMicro servers and Force10 and Cisco network equipment.
+* Installation and maintenance of datacenter hardware, power, and networking 
+  gear in multiple facilities to support Box's rapid growth
 * Python and Bash scripting as needed for general automation and time savings.
 
 ### Apple, Inc - Specialist, Extended Business Team	// Sep. 2010 – Oct. 2011
 
 * Expert consultation with consumer and business customers to select relevant 
   solutions to greatly varied technical needs.
-* Consistent performance in sales, business introductions, and repeat business 
-  relationships to regularly exceed weekly store goals.
+* Consistent performance in sales and business relationships to regularly exceed goals.
 * Demonstrated ability to translate highly technical concepts to customers 
   of all technical levels.
 
@@ -85,17 +85,22 @@ EXPERIENCE
   International Conference on Information Technology and Development, as 
   “AppLab Question Box: A Live Voice Information Service in Rural Uganda”
 
+### The Scholar’s Workstation - Customer Service/Sales // Jun. 2007 – Jun. 2009
+
+* Consulted with individual students, faculty, and University department
+  purchasers of all technical levels to identify hardware and software needs.
+* Supported licensing and installation of academic software across platforms.
 
 SKILLS
 ------
 
 * Configuration management experience (strong Puppet; moderate Chef)
 * Familiar with the requirements of a 24x7 production environment and on-call rotation
-* Ruby and Bash scripting
+* Bash scripting; some experience with Ruby and Python
 * Installation and configuration of Proxmox and ESXi hypervisors
 * RAID monitoring, automation, and performance optimization
 * Datacenter cabling, power, and maintenance best practices
-* General network knowledge and troubleshooting; some switch configuration
+* General network knowledge and troubleshooting; some switch and firewall configuration
 * Excellent written and verbal communications skills; adept at conveying
   technical concepts to listeners of varying technical backgrounds
 * Strong academic writing and qualitative research background
@@ -120,6 +125,4 @@ VOLUNTEER EXPERIENCE AND OTHER ACTIVITIES
 ### University of California Marching Band // Aug. 2005 – May 2009	
 
 * Marching instructor and member of computer committee for three seasons.
-* Supported users of the software used to chart field shows and developed 
-  simple, accessible instructions for its use across platforms.
 * Managed 20+ hour per week schedule while employed and in school full-time.
