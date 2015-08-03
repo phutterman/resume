@@ -96,6 +96,7 @@ SKILLS
 
 * Configuration management experience (strong Puppet; moderate Chef)
 * Familiar with the requirements of a 24x7 production environment and on-call rotation
+* Webserver and software load balancer configuration; Apache, Nginx, and Haproxy
 * Bash scripting; some experience with Ruby and Python
 * Installation and configuration of Proxmox and ESXi hypervisors
 * RAID monitoring, automation, and performance optimization
