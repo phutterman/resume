@@ -41,11 +41,13 @@ EXPERIENCE
 * Debugging/troubleshooting MySQL, RabbitMQ, Jetty web applications, etc.
 * Provisioning Scientific Linux and Ubuntu VMs on Red Hat Enterprise and Proxmox 
   infrastructure as well as bare metal servers and hypervisors.
-* Responsible for planning and execution of migration of servers in a remote
-  (hosted) site from Xen hypervisors to our own Proxmox infrastructure.
 * Primarily responsible for physical installation and initial setup of Opower's 
   second colocation facility for disaster recovery.
 * Experience with basic configuration of Arista switches and Palo Alto firewalls.
+* Created tools to automate backup of all Arista, Cisco, and Palo Alto network
+  device configuration
+* Acting as interim datacenter manager to oversee installation of 5 new racks,
+  all new network infrastructure, new NetApp SAN, and server moves into expanded space.
 
 ### Box - Datacenter Technician // Oct. 2011 - Mar. 2013
 
