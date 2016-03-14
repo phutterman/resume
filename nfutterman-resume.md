@@ -31,7 +31,7 @@ EXPERIENCE
 ### Opower - Systems Engineer // Apr. 2013 - Present
 
 * Significant configuration management work managing several hundred VM and 
-  bare metal servers (primarily with Puppet but some Chef).
+  bare metal servers (primarily with Puppet but light Chef).
 * Planned and executed client site migrations from legacy to new software load
   balancers based on Nginx and Haproxy; extensive configuration work on them.
 * Migration and configuration of external DNS to DynEct slaved off of internal
@@ -46,7 +46,7 @@ EXPERIENCE
 * Experience with basic configuration of Arista switches and Palo Alto firewalls.
 * Created tools to automate backup of all Arista, Cisco, and Palo Alto network
   device configuration
-* Acting as interim datacenter manager to oversee installation of 5 new racks,
+* Acting as interim datacenter manager overseeing installation of 5 new racks,
   all new network infrastructure, new NetApp SAN, and server moves into expanded space.
 
 ### Box - Datacenter Technician // Oct. 2011 - Mar. 2013
