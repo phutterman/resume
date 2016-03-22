@@ -6,11 +6,10 @@ _________________________________________
 OVERVIEW
 --------
 
-I am an operations generalist with a strong self-taught Linux background,
-experience managing servers and applications in a production environment,
-general scripting skills, and an appreciation for physical infrastructure.
-As a social scientist by education, I am particularly interested in novel ways 
-technology can connect people to useful knowledge.
+I am a cyclist, mechanic, and systems administrator with a self-taught Linux background,
+experience managing production servers, general scripting skills, and expertise in installation
+of datacenter hardware. As a social scientist by education, I am particularly interested in 
+novel ways technology can connect people to useful knowledge.
 
 
 EDUCATION	
