@@ -95,12 +95,16 @@ EXPERIENCE
 SKILLS
 ------
 
-* Configuration management experience (strong Puppet; moderate Chef)
+* General bike mechanical skills: installation and adjustment of rim and disc brakes,
+  derailleurs, singlespeed drivetrains; adjustment and tuning of all major drivetrains
+* Cup and cone bearing overhaul and adjustment (headset, bottom bracket, hub)
+* Frame preparation; headset and bottom bracket installation
+* Wheelbuilding and truing; construction with straight, butted, and bladed spokes;
+  appropriate spoke counts and lacing patterns for various applications
+* System configuration management experience (strong Puppet; moderate Chef)
 * Familiar with the requirements of a 24x7 production environment and on-call rotation
 * Webserver and software load balancer configuration; Apache, Nginx, and Haproxy
 * Bash scripting; some experience with Ruby and Python
-* Installation and configuration of Proxmox and ESXi hypervisors
-* RAID monitoring, automation, and performance optimization
 * Datacenter cabling, power, and maintenance best practices
 * General network knowledge and troubleshooting; some switch and firewall configuration
 * Excellent written and verbal communications skills; adept at conveying
