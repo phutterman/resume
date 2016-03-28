@@ -119,6 +119,10 @@ VOLUNTEER EXPERIENCE AND OTHER ACTIVITIES
 
 * Teach monthly beginning and advanced bike maintenance to classes of up to 10
   patrons of various skill levels
+* External/beginning class covered everyday tasks like fixing flats, recabling and
+  adjusting brakes and derailleurs, chain maintenance, and gearing theory
+* Internal/advanced class covered hub, headset, and bottom bracket overhaul, wheel truing,
+  and variable other topics including frame preparation and pressfit bearing install
 * Assist patrons with their own repairs and projects during shop's open hours
 
 ### International and Areas Studies - Peer Advisor // Aug. 2008 – May 2009	
