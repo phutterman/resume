@@ -27,22 +27,16 @@ Case Study of Information and Communication Technology for Development.”
 EXPERIENCE
 ----------
 
-### Opower - Systems Engineer // Apr. 2013 - Present
+### Opower - Systems Engineer, acting Datacenter Manager // Apr. 2013 - Present
 
 * Significant configuration management work managing several hundred VM and 
   bare metal servers (primarily with Puppet but light Chef).
 * Planned and executed client site migrations from legacy to new software load
   balancers based on Nginx and Haproxy; extensive configuration work on them.
-* Migration and configuration of external DNS to DynEct slaved off of internal
-  Bind server; moved management of zone files to standard Github workflow.
 * Participation in 24/7 on-call rotation; frequently first line of defense for
   technologies not specifically under the Systems umbrella.
-* Debugging/troubleshooting MySQL, RabbitMQ, Jetty web applications, etc.
-* Provisioning Scientific Linux and Ubuntu VMs on Red Hat Enterprise and Proxmox 
-  infrastructure as well as bare metal servers and hypervisors.
-* Primarily responsible for physical installation and initial setup of Opower's 
-  second colocation facility for disaster recovery.
-* Experience with basic configuration of Arista switches and Palo Alto firewalls.
+* Responsible for physical installation and initial setup of Opower's second datacenter 
+  facility for disaster recovery.
 * Created tools to automate backup of all Arista, Cisco, and Palo Alto network
   device configuration
 * Acting as interim datacenter manager overseeing installation of 5 new racks,
@@ -53,12 +47,6 @@ EXPERIENCE
 * Provisioning of CentOS and Scientific Linux servers including OS kickstart 
   using Cobbler and configuration with Puppet, and work on provisioning 
   automation using Tumblr's newly open sourced Collins tool.
-* Specialization in storage administration though close collaboration with 
-  storage operations team on monitoring and maintenance of multi-petabyte 
-  storage infrastructure; disk/RAID monitoring and automation, 
-  performance testing and optimization, and capacity planning.
-* Developed tool to collect and monitor disk and volume health trends and 
-  a storage growth capacity planning simulation tool.
 * Troubleshooting OS, hardware, and network (TCP/IP and physical) issues on 
   Dell and SuperMicro servers and Force10 and Cisco network equipment.
 * Installation and maintenance of datacenter hardware, power, and networking 
@@ -78,7 +66,6 @@ EXPERIENCE
 * Oversaw day-to-day operations of a phone-based information service for 
   rural farmers in Uganda, reaching two districts and hundreds of households.
 * Managed a team of three phone operators and one administrative assistant.
-* Implemented SLAs and performed associated analysis and reporting.
 * Served as primary point-of-contact for project leadership in the USA and 
   liason to partner organization the Grameen Foundation.
 * Created documentation for project's software and revised training materials.
