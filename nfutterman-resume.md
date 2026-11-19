@@ -7,8 +7,9 @@ OVERVIEW
 --------
 
 I am an operations generalist with a strong self-taught Linux background,
-experience managing servers and applications in a production environment,
-general scripting skills, and an appreciation for physical infrastructure.
+experience managing demanding production environments, general scripting/programming
+skills, an appreciation for physical infrastructure, and am drawn to more esoteric
+infrastructure realms like storage and database administration.
 As a social scientist by education, I am particularly interested in novel ways 
 technology can connect people to useful knowledge.
 
@@ -16,19 +17,50 @@ technology can connect people to useful knowledge.
 EDUCATION	
 ---------
 
-### University of California, Berkeley // Aug. 2005 – May 2009  
+### University of California, Berkeley // Aug. 2005 - May 2009  
 
 B.A., Political Economy of Industrial Societies with departmental honors. 
 Concentration on the role of information and communication technology in 
-development. Honors thesis: “Development Calling: Uganda’s Village Phone as a 
-Case Study of Information and Communication Technology for Development.” 
+development. Honors thesis: "Development Calling: Uganda's Village Phone as a 
+Case Study of Information and Communication Technology for Development." 
 131.3 total units, 3.657 GPA, music minor.
 
 
 EXPERIENCE
 ----------
 
-### Opower - Systems Engineer // Apr. 2013 - Present
+### Atlassian - Site Reliability Engineer, Databases // July 2024 - Present
+* As SRE organization moved to domain- rather than product-specific silos, I've 
+  transitioned to new team responsible for both Bitbucket and Confluence databases
+* Management of DB infrastructure in AWS (mix of traditional RDS and Aurora) across both 
+  single- and multi-tenant deployments across two internal PAAS platforms
+* Extending Atlassian PAAS platforms (in collaboration with platform team) to meet changing requirements
+* Recent include Postgres version upgrades with minimal downtime, non-disruptively enforcing
+  SSL connections across the Bitbucket DB fleet, and refactoring/extending automation for developer
+  and SRE/privileged user grants
+* Developed a successful knowledge-sharing program to train database SMEs across Bitbucket
+  engineering teams
+
+### Atlassian - Site Reliability Engineer, Bitbucket Cloud // June 2016 - June 2024
+
+* Joined to maintain and expand a primary & DR datacenter; grew to be a
+  subject-matter expert on our at-the-time extensive Netapp SAN.
+* Responsible for capacity planning & compute growth in the DC and led major storage
+  expansions/upgrades of a redundant pair of 8-node Netapp clusters.
+* Led multiple aspects of a complete datacenter move including >2PB of customer data
+  accomplished with minimal customer impact on a very tight timeline, and moved
+  it again the next year to a cloud solution.
+* Incident response and general configuration management in both physical and cloud
+  infrastructure including Puppet, Terraform, and limited Ansible.
+* Experience running containerized infrastructure on EC2 and using shared resources
+  like memcached and SQS; troubleshooting Python application issues using standard
+  tools like Signalfx, Newrelic, Splunk, and Sentry.
+* Management of extensive AWS RDS and Aurora infrastructure, including managing
+  complex clusters and orchestrating major version upgrades with minimal impact.
+* Took on DBA responsibilities as prior DBA shifted into architecture role: monitoring health, 
+  performing migrations, reviewing queries, responding to incidents, and supporting more complex tasks.
+
+### Opower - Systems Engineer // Apr. 2013 - May 2016
 
 * Significant configuration management work managing several hundred VM and 
   bare metal servers (primarily with Puppet but light Chef).
@@ -44,8 +76,7 @@ EXPERIENCE
 * Primarily responsible for physical installation and initial setup of Opower's 
   second colocation facility for disaster recovery.
 * Experience with basic configuration of Arista switches and Palo Alto firewalls.
-* Created tools to automate backup of all Arista, Cisco, and Palo Alto network
-  device configuration
+* Created tooling to automate backup of all network device configuration
 * Acting as interim datacenter manager overseeing installation of 5 new racks,
   all new network infrastructure, new NetApp SAN, and server moves into expanded space.
 
@@ -66,7 +97,7 @@ EXPERIENCE
   gear in multiple facilities to support Box's rapid growth
 * Python and Bash scripting as needed for general automation and time savings.
 
-### Apple, Inc - Specialist, Extended Business Team	// Sep. 2010 – Oct. 2011
+### Apple, Inc - Specialist, Extended Business Team	// Sep. 2010 - Oct. 2011
 
 * Expert consultation with consumer and business customers to select relevant 
   solutions to greatly varied technical needs.
@@ -74,7 +105,7 @@ EXPERIENCE
 * Demonstrated ability to translate highly technical concepts to customers 
   of all technical levels.
 
-### Open Mind Question Box - Uganda Program Coordinator	// Jun. – Sep. 2009
+### Open Mind Question Box - Uganda Program Coordinator	// Jun. - Sep. 2009
 
 * Oversaw day-to-day operations of a phone-based information service for 
   rural farmers in Uganda, reaching two districts and hundreds of households.
@@ -85,18 +116,16 @@ EXPERIENCE
 * Created documentation for project's software and revised training materials.
 * Primary author of published research on project in the proceedings of the 
   International Conference on Information Technology and Development, as 
-  “AppLab Question Box: A Live Voice Information Service in Rural Uganda”
-
-### The Scholar’s Workstation - Customer Service/Sales // Jun. 2007 – Jun. 2009
-
-* Consulted with individual students, faculty, and University department
-  purchasers of all technical levels to identify hardware and software needs.
-* Supported licensing and installation of academic software across platforms.
+  "AppLab Question Box: A Live Voice Information Service in Rural Uganda"
 
 SKILLS
 ------
 
-* Configuration management experience (strong Puppet; moderate Chef)
+* Operation of modern containerized application infrastructure in AWS
+* Deployment of infrastructure as code via Bitbucket Pipelines
+* Management and monitoring of AWS database infrastructure
+* Understanding of Postgresql fundamentals and performance/monitoring
+* Configuration management experience (strong Puppet, some Terraform, limited Chef)
 * Familiar with the requirements of a 24x7 production environment and on-call rotation
 * Webserver and software load balancer configuration; Apache, Nginx, and Haproxy
 * Bash scripting; some experience with Ruby and Python
@@ -112,20 +141,27 @@ SKILLS
 VOLUNTEER EXPERIENCE AND OTHER ACTIVITIES
 -----------------------------------------
 
-### San Francisco Bike Kitchen - Instructor and Mechanic // Feb. 2010 - Present
+### Smoke & Mirrors Menagerie - Chief Engineer // Oct. 2020 - Present
+
+* Assistant producer of a San Francisco-based circus and variety show.
+* Beginning in 2020, responsible for videography and stream production of an all-virtual
+  format mixing prerecorded acts and live hosting.
+* Current productions are live; responsible for promotional photo/video and live sound.
+
+### San Francisco Bike Kitchen - Instructor and Mechanic // Feb. 2010 - Mar. 2016
 
 * Teach monthly beginning and advanced bike maintenance to classes of up to 10
-  patrons of various skill levels
-* Assist patrons with their own repairs and projects during shop's open hours
+  patrons of various skill levels.
+* Assist patrons with their own repairs and projects during shop's open hours.
 
-### International and Areas Studies - Peer Advisor // Aug. 2008 – May 2009	
+### International and Areas Studies - Peer Advisor // Aug. 2008 - May 2009	
 
 * Worked with staff and faculty in the department that houses Political Economy,
   Development Studies, and other interdisciplinary, international majors.
 * Advised fellow students on major and University requirements and helped them 
   plan courses of study based upon their interests.
 
-### University of California Marching Band // Aug. 2005 – May 2009	
+### University of California Marching Band // Aug. 2005 - May 2009	
 
 * Marching instructor and member of computer committee for three seasons.
 * Managed 20+ hour per week schedule while employed and in school full-time.
