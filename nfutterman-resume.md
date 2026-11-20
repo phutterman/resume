@@ -19,120 +19,94 @@ EDUCATION
 
 ### University of California, Berkeley // Aug. 2005 - May 2009  
 
-B.A., Political Economy of Industrial Societies with departmental honors. 
-Concentration on the role of information and communication technology in 
-development. Honors thesis: "Development Calling: Uganda's Village Phone as a 
-Case Study of Information and Communication Technology for Development." 
-131.3 total units, 3.657 GPA, music minor.
+B.A., Political Economy of Industrial Societies with departmental honors. Concentration on 
+the role of information and communication technology in development. Honors thesis:
+"Development Calling: Uganda's Village Phone as a Case Study of Information and Communication Technology for Development." 131.3 total units, 3.657 GPA, music minor.
 
 
 EXPERIENCE
 ----------
 
-### Atlassian - Site Reliability Engineer, Databases // July 2024 - Present
+### Atlassian - Site Reliability Engineer, Databases // July 2024 - Nov. 2026
 * As SRE organization moved to domain- rather than product-specific silos, I've 
-  transitioned to new team responsible for both Bitbucket and Confluence databases
+  transitioned to new team responsible for both Bitbucket and Confluence databases,
+  though much of deepest work remained Bitbucket-centered.
+* Implemented DB connection and query outcome metrics in Django to enable establing
+  infrastructure SLOs for the Bitbucket databases with regard to the application.
 * Management of DB infrastructure in AWS (mix of traditional RDS and Aurora) across both 
   single- and multi-tenant deployments across two internal PAAS platforms
-* Extending Atlassian PAAS platforms (in collaboration with platform team) to meet changing requirements
-* Recent include Postgres version upgrades with minimal downtime, non-disruptively enforcing
-  SSL connections across the Bitbucket DB fleet, and refactoring/extending automation for developer
-  and SRE/privileged user grants
-* Developed a successful knowledge-sharing program to train database SMEs across Bitbucket
-  engineering teams
+* Transitioned to database SME escalation point on-call for Jira, Confluence, and Bitbucket.
+* Built internal automation wrapping AWS Blue-Green deployment Aurora upgrades to
+  handle Bitbucket-specific customizations and requirements, reducing major version upgrades from
+  4-hour downtime windows to 15-30 minute disruptions.
+* Automated RO/developer, SRE, and superuser DB access and grants based on AD groups and
+  temporary passwords; owned query optimization push (including developers) to enable enforcement
+  of statement timeouts across the Bitbucket DB fleet.
+* Developed a successful knowledge-sharing program to train "database champtions" across Bitbucket
+  engineering teams to promote better awareness and around DB reliability and performance by devs.
 
 ### Atlassian - Site Reliability Engineer, Bitbucket Cloud // June 2016 - June 2024
 
-* Joined to maintain and expand a primary & DR datacenter; grew to be a
-  subject-matter expert on our at-the-time extensive Netapp SAN.
-* Responsible for capacity planning & compute growth in the DC and led major storage
-  expansions/upgrades of a redundant pair of 8-node Netapp clusters.
-* Led multiple aspects of a complete datacenter move including >2PB of customer data
-  accomplished with minimal customer impact on a very tight timeline, and moved
-  it again the next year to a cloud solution.
+* Joined to maintain and expand a primary & DR datacenter; rapidly grew into SME on our
+  then-extensive Netapp SAN (a primary/DR pair of 8-node Netapp clusters over 2PB each)
+* Responsible for capacity planning & compute growth in the DC and owned multiple major storage
+  expansions/upgrades of a.
+* Led multiple aspects of a complete datacenter move/build (including all customer data)
+  with minimal impact on a tight timeline (in 2020), and again the next year to a cloud solution.
 * Incident response and general configuration management in both physical and cloud
   infrastructure including Puppet, Terraform, and limited Ansible.
-* Experience running containerized infrastructure on EC2 and using shared resources
-  like memcached and SQS; troubleshooting Python application issues using standard
-  tools like Signalfx, Newrelic, Splunk, and Sentry.
+* Experience running and deployinh containerized infrastructure on EC2 and using shared
+  resources and datastores including RDS, memcached and SQS; troubleshooting Python application issues using standard tools like Signalfx, Newrelic, Splunk, and Sentry.
 * Management of extensive AWS RDS and Aurora infrastructure, including managing
   complex clusters and orchestrating major version upgrades with minimal impact.
-* Took on DBA responsibilities as prior DBA shifted into architecture role: monitoring health, 
+* Took on DBA responsibilities as main DBA shifted into architect role: monitoring health, 
   performing migrations, reviewing queries, responding to incidents, and supporting more complex tasks.
 
 ### Opower - Systems Engineer // Apr. 2013 - May 2016
 
-* Significant configuration management work managing several hundred VM and 
-  bare metal servers (primarily with Puppet but light Chef).
-* Planned and executed client site migrations from legacy to new software load
-  balancers based on Nginx and Haproxy; extensive configuration work on them.
-* Migration and configuration of external DNS to DynEct slaved off of internal
-  Bind server; moved management of zone files to standard Github workflow.
-* Participation in 24/7 on-call rotation; frequently first line of defense for
-  technologies not specifically under the Systems umbrella.
+* Configuration management of several hundred VM and bare metal servers (Puppet; light Chef).
+* Planned and executed client site migrations from legacy hardware to software load
+  balancers (Nginx and Haproxy); extensive configuration.
+* Migration of external DNS to DynEct slaved off of internal Bind server and zone files to git.
+* Participation in 24/7 on-call rotation; first line of defense for technologies
+  and services within and outside the team's ownership.
 * Debugging/troubleshooting MySQL, RabbitMQ, Jetty web applications, etc.
-* Provisioning Scientific Linux and Ubuntu VMs on Red Hat Enterprise and Proxmox 
-  infrastructure as well as bare metal servers and hypervisors.
-* Primarily responsible for physical installation and initial setup of Opower's 
-  second colocation facility for disaster recovery.
-* Experience with basic configuration of Arista switches and Palo Alto firewalls.
-* Created tooling to automate backup of all network device configuration
-* Acting as interim datacenter manager overseeing installation of 5 new racks,
-  all new network infrastructure, new NetApp SAN, and server moves into expanded space.
+* Provisioning Scientific Linux and Ubuntu  on Red Hat Virtualization, Proxmox, and bare metal
+* Owned install and setup of 5-rack expansion and new DR site including network, SAN, and compute.
+* Basic configuration of Arista switches and Palo Alto firewalls.
+* Automated backup of all network device configuration.
 
 ### Box - Datacenter Technician // Oct. 2011 - Mar. 2013
 
-* Provisioning of CentOS and Scientific Linux servers including OS kickstart 
-  using Cobbler and configuration with Puppet, and work on provisioning 
-  automation using Tumblr's newly open sourced Collins tool.
-* Specialization in storage administration though close collaboration with 
-  storage operations team on monitoring and maintenance of multi-petabyte 
-  storage infrastructure; disk/RAID monitoring and automation, 
-  performance testing and optimization, and capacity planning.
-* Developed tool to collect and monitor disk and volume health trends and 
-  a storage growth capacity planning simulation tool.
+* Provisioning and configuration of CentOS and Scientific Linux servers from bare metal
+  to production ready with Cobbler, Puppet, then migrating install/DCIM to Collins
+* Specialization in storage administration though collaboration with storage ops team on
+  monitoring and maintenance of multi-petabyte storage infrastructure; disk/RAID monitoring and automation, performance testing and optimization, and capacity planning.
+* Built tooling to monitor disk and volume health trends and capacity planning projections.
 * Troubleshooting OS, hardware, and network (TCP/IP and physical) issues on 
   Dell and SuperMicro servers and Force10 and Cisco network equipment.
-* Installation and maintenance of datacenter hardware, power, and networking 
-  gear in multiple facilities to support Box's rapid growth
-* Python and Bash scripting as needed for general automation and time savings.
-
-### Apple, Inc - Specialist, Extended Business Team	// Sep. 2010 - Oct. 2011
-
-* Expert consultation with consumer and business customers to select relevant 
-  solutions to greatly varied technical needs.
-* Consistent performance in sales and business relationships to regularly exceed goals.
-* Demonstrated ability to translate highly technical concepts to customers 
-  of all technical levels.
-
-### Open Mind Question Box - Uganda Program Coordinator	// Jun. - Sep. 2009
-
-* Oversaw day-to-day operations of a phone-based information service for 
-  rural farmers in Uganda, reaching two districts and hundreds of households.
-* Managed a team of three phone operators and one administrative assistant.
-* Implemented SLAs and performed associated analysis and reporting.
-* Served as primary point-of-contact for project leadership in the USA and 
-  liason to partner organization the Grameen Foundation.
-* Created documentation for project's software and revised training materials.
-* Primary author of published research on project in the proceedings of the 
-  International Conference on Information Technology and Development, as 
-  "AppLab Question Box: A Live Voice Information Service in Rural Uganda"
+* Installation and maintenance of datacenter hardware, power, and networking in two sites
+  plus initial buildout of disaster recovery site to support Box's rapid growth.
 
 SKILLS
 ------
 
 * Operation of modern containerized application infrastructure in AWS
 * Deployment of infrastructure as code via Bitbucket Pipelines
-* Management and monitoring of AWS database infrastructure
-* Understanding of Postgresql fundamentals and performance/monitoring
-* Configuration management experience (strong Puppet, some Terraform, limited Chef)
-* Familiar with the requirements of a 24x7 production environment and on-call rotation
-* Webserver and software load balancer configuration; Apache, Nginx, and Haproxy
-* Bash scripting; some experience with Ruby and Python
-* Installation and configuration of Proxmox and ESXi hypervisors
-* RAID monitoring, automation, and performance optimization
-* Datacenter cabling, power, and maintenance best practices
-* General network knowledge and troubleshooting; some switch and firewall configuration
+* Management and monitoring of AWS database infrastructure using AWS and external industry tools
+* Understanding of Postgresql performance, maintenance, and incident response; significant
+  connection pooling experience with pgbouncer
+* Python development/scripting; Bash; limited Go and Ruby.
+* Effective spec and requirement description to guide AI coding agents for larger projects and
+  in less familiar languages
+* Configuration management experience (Terraform, Puppet, limited Chef and Ansible)
+* Familiarity with the requirements of a 24x7 production environment and on-call rotation
+* Network knowledge and troubleshooting in AWS and local: understanding of VPCs, AWS subnets, load
+  balancer types, exposure to DirectConnect; hardware switch and some firewall configuration.
+* Software oad balancing with Envoy, HAproxy and Nginx; web servers including Gunicorn, Apache, Jetty
+* Hardware-related skills including general hardware monitoring/repair (myself and via remote
+  hands; RAID monitoring, automation, and performance optimization; datacenter cabling, power, and
+  installation best practices
 * Excellent written and verbal communications skills; adept at conveying
   technical concepts to listeners of varying technical backgrounds
 * Strong academic writing and qualitative research background
@@ -141,27 +115,25 @@ SKILLS
 VOLUNTEER EXPERIENCE AND OTHER ACTIVITIES
 -----------------------------------------
 
+### Substitue instructor, aerial silks and lyra // Dec. 2024 - Present
+
+ * Teach aerial (circus) skills ranging from safe basics to entirely brand new students to
+   strong intermediate skills and tricks to classes of up to 12 adult students ranging from 
+   beginner to strong intermediate.
+
 ### Smoke & Mirrors Menagerie - Chief Engineer // Oct. 2020 - Present
 
 * Assistant producer of a San Francisco-based circus and variety show.
-* Beginning in 2020, responsible for videography and stream production of an all-virtual
-  format mixing prerecorded acts and live hosting.
+* Beginning in 2020, owned videography and stream production of an all-virtual
+  format mixing prerecorded acts and remote live hosting.
 * Current productions are live; responsible for promotional photo/video and live sound.
 
 ### San Francisco Bike Kitchen - Instructor and Mechanic // Feb. 2010 - Mar. 2016
 
 * Teach monthly beginning and advanced bike maintenance to classes of up to 10
-  patrons of various skill levels.
-* Assist patrons with their own repairs and projects during shop's open hours.
-
-### International and Areas Studies - Peer Advisor // Aug. 2008 - May 2009	
-
-* Worked with staff and faculty in the department that houses Political Economy,
-  Development Studies, and other interdisciplinary, international majors.
-* Advised fellow students on major and University requirements and helped them 
-  plan courses of study based upon their interests.
+  patrons of various skill levels and assist with repairs and projects during shop's open hours.
 
 ### University of California Marching Band // Aug. 2005 - May 2009	
 
 * Marching instructor and member of computer committee for three seasons.
-* Managed 20+ hour per week schedule while employed and in school full-time.
+* Managed 20+ hour per week rehearsal and performance schedule as full-time student and employed.
